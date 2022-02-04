@@ -2,6 +2,10 @@ html {
 	box-sizing: border-box;
 }
 
+.user-select-none {
+	user-select: none;
+}
+
 *,
 *::before,
 *::after {
@@ -75,13 +79,13 @@ h1 {
 }
 
 .deck .card.show {
-	font-size: 33px;
+	font-size: 75px;
 }
 
 .deck .card.match {
 	cursor: default;
 	background: #E5F720;
-	font-size: 33px;
+	font-size: 75px;
 	animation-name: rubberBand;
 	-webkit-backface-visibility: visible !important;
 	backface-visibility: visible !important;
